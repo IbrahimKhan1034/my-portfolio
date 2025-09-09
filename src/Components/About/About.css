@@ -25,20 +25,20 @@
     display: flex;
     gap: 80px;
 }
-.about-left img{
+/* .about-left img{
     border-radius: 10px;
-}
+} */
 .about-right{
     display: flex;
     flex-direction: column;
-    gap: 40px;
+    gap: 80px;
 }
 .about-para{
     display: flex;
     flex-direction: column;
     gap: 20px;
-    font-size: 20px;
-    font-weight: 400;
+    font-size: 24px;
+    font-weight: 500;
 }
 .about-skills{
     display: flex;
