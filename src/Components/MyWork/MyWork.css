@@ -73,21 +73,21 @@
         font-weight: 600;
     }
     .mywork-title img{
-        width: 130px;
-        margin-right: -20px;
+        width: 100px;
+        margin-right: -10px;
     }
     .mywork-container{
         grid-template-columns: 1fr 1fr;
-        gap: 30px;
+        gap: 20px;
     }
     .mywork-container img{
         width: 100%;
         height: 100%;
     }
     .mywork-showmore{
-        padding: 20px 40px;
+        padding: 15px 30px;
         font-size: 18px;
-        margin: 50px auto;
+        margin: 30px auto;
         cursor: pointer;
     }
 }
