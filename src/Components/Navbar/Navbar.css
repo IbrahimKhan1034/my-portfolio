@@ -48,27 +48,29 @@
 }
 .nav-mob-close {
   display: none;
+  cursor: pointer;
 }
 .nav-mob-open {
   display: none;
+  cursor: pointer;
 }
 @media (max-width: 768px) {
   .navbar {
-    margin: 20px 50px;
+    margin: 20px 6%;
   }
   .nav-connect {
     display: none;
   }
   .nav-mob-open {
     display: block;
-    position: fixed;
+    position: absolute;
     right: 30px;
   }
   .nav-mob-close {
     display: block;
-    position: relative;
+    position: absolute;
     top: 30px;
-    left: 290px;
+    right: 7%;
     width: 30px;
   }
   .nav-menu {
@@ -78,11 +80,12 @@
     top: 0;
     gap: 30px;
     background-color: #1f0016;
-    width: 350px;
+    width: 300px;
     height: 100%;
     z-index: 2;
     transition: right 0.5s;
-    right: -350px;
+    right: -300px;
+    padding-top: 100px;
   }
   .nav-menu-li {
     font-size: 30px;
